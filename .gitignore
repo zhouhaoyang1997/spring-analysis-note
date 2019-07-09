@@ -24,6 +24,9 @@ buildSrc/build
 /src/asciidoc/build
 target/
 
+#不剔除 aop 包下的 target 目录
+!org.springframework.aop.target/
+
 # Eclipse artifacts, including WTP generated manifests
 .classpath
 .project
