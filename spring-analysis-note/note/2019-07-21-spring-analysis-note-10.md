@@ -97,7 +97,9 @@
 （1）**配置 `web.xml`**
 
 在该文件中，主要配置了两个关键点：
+
 **1. `contextConfigLocation` ：使 `Web` 和 `Spring` 的配置文件相结合的关键配置**
+
 **2. `DispatcherServlet` : 包含了 `SpringMVC` 的请求逻辑，使用该类拦截 `Web` 请求并进行相应的逻辑处理**
 
 ```xml
